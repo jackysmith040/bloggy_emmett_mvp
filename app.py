@@ -138,3 +138,5 @@ async def new_post():
 auth_routes = auth.module(__name__)
 
 
+if __name__ == "__main__":
+    gunicorn
