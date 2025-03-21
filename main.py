@@ -74,7 +74,7 @@ def setup():
     with db.connection():
         # create the user
         user = User.create(
-            email="demo@bloggy.com",
+            email="demo@blog.com",
             first_name="bloggy",
             last_name="bloggy",
             password="bloggy"

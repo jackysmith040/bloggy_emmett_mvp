@@ -1,2 +1,3 @@
 /.venv_blog
 /__pycache__
+/migrations
