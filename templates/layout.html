@@ -12,6 +12,8 @@
       <div class="nav">
         {{if not current.session.auth:}}
         <a href="{{=url('auth.login')}}">log in</a>
+        <a href="{{=url('auth.registration')}}">sign up</a>
+        
         {{else:}}
         <a href="{{=url('auth.logout')}}">log out</a>
         {{pass}}

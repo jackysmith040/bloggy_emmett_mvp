@@ -74,10 +74,10 @@ def setup():
     with db.connection():
         # create the user
         user = User.create(
-            email="doc@emmettbrown.com",
-            first_name="Emmett",
-            last_name="Brown",
-            password="fluxcapacitor"
+            email="demo@bloggy.com",
+            first_name="bloggy",
+            last_name="bloggy",
+            password="bloggy"
         )
         # create an admin group
         admins = auth.create_group("admin")
