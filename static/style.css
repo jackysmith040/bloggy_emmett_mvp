@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9; /* Lighter background for a premium feel */
+    color: #444; /* Darker text for better readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2 {
+    color: #007acc; /* Primary color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #005fa3; /* Darker shade on hover */
+}
+
+h1, h2, h4, h5 {
+    font-family: 'Georgia', serif; /* Elegant serif font for headings */
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 3px solid #eaeaea;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.8em; /* Slightly larger for emphasis */
+    margin: 1.5em 0 0.5em;
+}
+
+/* Page Container */
+.page {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 2.5em; /* Increased padding for a spacious feel */
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    border-radius: 10px; /* More rounded corners */
+}
+
+/* Title */
+.title {
+    font-size: 2em; /* Increased title size */
+    margin-bottom: 1em;
+}
+
+/* Posts List */
+.posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.posts li {
+    margin: 1.5em 0;
+    padding: 1.5em; /* Increased padding for comfort */
+    border: 1px solid #eaeaea;
+    border-radius: 8px; /* More rounded corners */
+    transition: box-shadow 0.3s ease;
+    background: #fdfdfd; /* Subtle background for posts */
+}
+
+.posts li:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.posts li h2 {
+    margin: 0;
+    font-size: 1.5em; /* Adjusted size for better hierarchy */
+}
+
+.posts li hr {
+    margin: 1em 0;
+    border: 0;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Navigation */
+.nav {
+    text-align: right;
+    font-size: 0.9em;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em; /* Increased margin for spacing */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 1em; /* Increased padding for comfort */
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly more rounded corners */
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #007acc;
+    box-shadow: 0 0 5px rgba(0, 122, 204, 0.5); /* Subtle glow effect */
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 1em; /* Increased padding for comfort */
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc; /* Primary button color */
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+
